@@ -1,4 +1,3 @@
-import ExercisesClass.Car;
 import auxiliary.AuxiliaryCaller;
 
 public class Main {

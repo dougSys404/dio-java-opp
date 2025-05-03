@@ -1,6 +1,6 @@
 package auxiliary;
 
-import ExercisesClass.Car;
+import ExercisesClass.Vehicle;
 
 import java.util.Scanner;
 
@@ -42,25 +42,25 @@ public final class AuxiliaryCaller {
         while (counter <= 3) {
             System.out.println("Input #" + counter);
             System.out.println();
-            System.out.print("Enter car's color: ");
+            System.out.print("Enter vehicle's color: ");
             String color = sc.nextLine();
-            System.out.print("Enter car's model: ");
+            System.out.print("Enter vehicle's model: ");
             String model = sc.nextLine();
-            System.out.print("Enter car's fuel tank capacity: ");
+            System.out.print("Enter vehicle's fuel tank capacity: ");
             double tankFuel = sc.nextDouble();
 
-            Car car = new Car(color,model,tankFuel);
+            Vehicle vehicle = new Vehicle(color,model,tankFuel);
 
-            System.out.println("\nCar info | Color: " + car.getColor()
-                    + " | Model: " + car.getModel()
-                    + " | Fuel tank capacity: " + car.getFuelTankCapacity()
+            System.out.println("\nVehicle info | Color: " + vehicle.getColor()
+                    + " | Model: " + vehicle.getModel()
+                    + " | Fuel tank capacity: " + vehicle.getFuelTankCapacity()
             );
 
             System.out.print("\nNow, enter gas price to fill tank: ");
             double price = sc.nextDouble();
 
             System.out.println("\nTo fill the tank, you'll spend $"
-                    + (car.fillTank(car.getFuelTankCapacity(), price)));
+                    + (vehicle.fillTank(vehicle.getFuelTankCapacity(), price)));
             counter++;
         }
 
