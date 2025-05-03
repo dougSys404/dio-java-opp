@@ -26,4 +26,8 @@ bin/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> e53ec11 (First commit)
