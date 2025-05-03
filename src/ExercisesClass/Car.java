@@ -6,36 +6,36 @@ public class Car {
     String model;
     double fuelTankCapacity;
 
-    Car(){}
+    public Car(){}
 
-    Car(String color, String model, double fuelTankCapacity){
+    public Car(String color, String model, double fuelTankCapacity){
         this.color = color;
-        this.model = color;
+        this.model = model;
         this.fuelTankCapacity = fuelTankCapacity;
     }
 
-    double fillTank(double fuelTankCapacity, double price){
+    public double fillTank(double fuelTankCapacity, double price){
 
         return fuelTankCapacity * price;
     }
 
-    String getColor() {
+    public String getColor() {
         return color;
     }
 
-    void setColor(String color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
-    String getModel() {
+    public String getModel() {
         return model;
     }
 
-    void setModel(String model) {
+    public void setModel(String model) {
         this.model = model;
     }
 
-    double getFuelTankCapacity() {
+    public double getFuelTankCapacity() {
         return fuelTankCapacity;
     }
 
