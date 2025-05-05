@@ -12,6 +12,7 @@ public final class AuxiliaryCaller {
         System.out.println("Choose the exercise!");
         System.out.println("1 - Create 3 cars");
         System.out.println("2 - Show Employees with inheritance");
+        System.out.println("3 - Association");
         System.out.println("0 - Quit");
         System.out.println();
         System.out.print("Option: ");
@@ -29,6 +30,11 @@ public final class AuxiliaryCaller {
 
             case 2: {
                 showEmployees();
+                break;
+            }
+
+            case 3: {
+                association();
                 break;
             }
             default:{
@@ -106,5 +112,9 @@ public final class AuxiliaryCaller {
         for (Employee employee : employees){
             employee.method2();
         }
+    }
+
+    public static void association(){
+
     }
 }
