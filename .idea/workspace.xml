@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d9f0c1f-5832-48da-a021-f1ed1acb4557" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercisesClass/CheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercisesClass/CheckOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercisesClass/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercisesClass/Coupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auxiliary/AuxiliaryCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auxiliary/AuxiliaryCaller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
